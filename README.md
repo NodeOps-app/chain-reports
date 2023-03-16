@@ -1,4 +1,4 @@
-# [Chains Security Metrix by AsGuard](https://pratikbin.github.io/chain-reports/)
+# [Chains Security Metrix by NoedOps](https://pratikbin.github.io/chain-reports/)
 
 ```mermaid
 
