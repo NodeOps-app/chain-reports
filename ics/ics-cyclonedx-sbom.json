@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:66ed028e-d047-4ba0-b82f-7e6094467db4",
+  "serialNumber": "urn:uuid:5b679674-d0f4-41cd-b7cb-1cef30d2d3fd",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T08:01:31+00:00",
+    "timestamp": "2023-04-01T08:59:58+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "845e34dd-e083-49ca-a529-564205cb67e9",
+      "bom-ref": "b5fb3558-4089-48a1-abc1-1f36b9ad0dd1",
       "type": "container",
       "name": "ics_v1.0.0",
       "properties": [
@@ -2096,7 +2096,7 @@
       ]
     },
     {
-      "bom-ref": "a8a0ca76-9e7f-457a-a8c7-76d1fc383671",
+      "bom-ref": "de99a2e6-0e8a-4e40-8eff-040f44422f8c",
       "type": "application",
       "name": "bin/interchain-security-pd",
       "properties": [
@@ -2111,7 +2111,7 @@
       ]
     },
     {
-      "bom-ref": "4bb481b8-115c-4d92-a8d9-cceba6408c21",
+      "bom-ref": "56543192-0c5d-4ce9-bb6f-4ff1f14ae9a6",
       "type": "application",
       "name": "bin/interchain-security-cd",
       "properties": [
@@ -2128,7 +2128,7 @@
   ],
   "dependencies": [
     {
-      "ref": "4bb481b8-115c-4d92-a8d9-cceba6408c21",
+      "ref": "56543192-0c5d-4ce9-bb6f-4ff1f14ae9a6",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
@@ -2231,14 +2231,14 @@
       ]
     },
     {
-      "ref": "845e34dd-e083-49ca-a529-564205cb67e9",
+      "ref": "b5fb3558-4089-48a1-abc1-1f36b9ad0dd1",
       "dependsOn": [
-        "a8a0ca76-9e7f-457a-a8c7-76d1fc383671",
-        "4bb481b8-115c-4d92-a8d9-cceba6408c21"
+        "de99a2e6-0e8a-4e40-8eff-040f44422f8c",
+        "56543192-0c5d-4ce9-bb6f-4ff1f14ae9a6"
       ]
     },
     {
-      "ref": "a8a0ca76-9e7f-457a-a8c7-76d1fc383671",
+      "ref": "de99a2e6-0e8a-4e40-8eff-040f44422f8c",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
