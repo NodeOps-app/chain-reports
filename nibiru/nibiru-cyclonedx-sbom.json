@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:ea026261-008e-40af-9de2-0a4ea8963d1e",
+  "serialNumber": "urn:uuid:668eb869-8b0f-4400-abc0-6a4944b7ebeb",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T07:54:04+00:00",
+    "timestamp": "2023-04-01T08:46:17+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "26202897-7808-4b88-949e-3829454e45e7",
+      "bom-ref": "53341ad5-6757-4cd8-880f-4048d2a52231",
       "type": "container",
       "name": "nibiru_v0.20.0-rc1",
       "properties": [
@@ -2218,7 +2218,7 @@
       ]
     },
     {
-      "bom-ref": "9ea29620-886a-440d-911d-b97d7e1ab800",
+      "bom-ref": "05a18e28-33b7-4bc2-93dc-b23a9a5c9e49",
       "type": "application",
       "name": "bin/nibid",
       "properties": [
@@ -2235,13 +2235,7 @@
   ],
   "dependencies": [
     {
-      "ref": "26202897-7808-4b88-949e-3829454e45e7",
-      "dependsOn": [
-        "9ea29620-886a-440d-911d-b97d7e1ab800"
-      ]
-    },
-    {
-      "ref": "9ea29620-886a-440d-911d-b97d7e1ab800",
+      "ref": "05a18e28-33b7-4bc2-93dc-b23a9a5c9e49",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
@@ -2347,6 +2341,12 @@
         "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
         "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
         "pkg:golang/nhooyr.io/websocket@v1.8.6"
+      ]
+    },
+    {
+      "ref": "53341ad5-6757-4cd8-880f-4048d2a52231",
+      "dependsOn": [
+        "05a18e28-33b7-4bc2-93dc-b23a9a5c9e49"
       ]
     }
   ],
