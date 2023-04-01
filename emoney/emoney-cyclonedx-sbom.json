@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:fe63268f-a3e0-4e88-8ba0-17f58614b3c6",
+  "serialNumber": "urn:uuid:99119d00-45b4-484f-9d3a-e91f6820ea34",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T16:15:00+00:00",
+    "timestamp": "2023-04-01T07:59:29+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "6fcca533-e2d7-4b7f-8882-cdf7bb8ed01d",
+      "bom-ref": "ac06e78e-2441-4e55-8a29-0d0f4430091d",
       "type": "container",
       "name": "emoney_v1.2.0",
       "properties": [
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "bom-ref": "d8e4171c-92a2-49b7-8fac-e4d2e46d2d4e",
+      "bom-ref": "37424d12-d630-428e-8860-6770f5ad906f",
       "type": "application",
       "name": "bin/emd",
       "properties": [
@@ -1941,17 +1941,16 @@
   ],
   "dependencies": [
     {
-      "ref": "d8e4171c-92a2-49b7-8fac-e4d2e46d2d4e",
+      "ref": "37424d12-d630-428e-8860-6770f5ad906f",
       "dependsOn": [
         "pkg:golang/./ics23@%28devel%29",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.52",
         "pkg:golang/github.com/armon/go-metrics@v0.3.8",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.0",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.0-beta",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
         "pkg:golang/github.com/cosmos/cosmos-sdk@v0.42.11",
         "pkg:golang/github.com/cosmos/go-bip39@v1.0.0",
@@ -2021,6 +2020,7 @@
         "pkg:golang/github.com/tidwall/gjson@v1.9.3",
         "pkg:golang/github.com/tidwall/match@v1.1.1",
         "pkg:golang/github.com/tidwall/pretty@v1.2.0",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.52",
         "pkg:golang/github.com/zondax/hid@v0.9.0",
         "pkg:golang/golang.org/x/crypto@v0.0.0-20201221181555-eec23a3978ad",
         "pkg:golang/golang.org/x/net@v0.0.0-20210903162142-ad29c8ab022f",
@@ -2036,9 +2036,9 @@
       ]
     },
     {
-      "ref": "6fcca533-e2d7-4b7f-8882-cdf7bb8ed01d",
+      "ref": "ac06e78e-2441-4e55-8a29-0d0f4430091d",
       "dependsOn": [
-        "d8e4171c-92a2-49b7-8fac-e4d2e46d2d4e"
+        "37424d12-d630-428e-8860-6770f5ad906f"
       ]
     }
   ],
