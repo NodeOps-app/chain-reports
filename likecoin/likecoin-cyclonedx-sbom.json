@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:c26cccba-26e1-4bcb-aeda-4b431daae119",
+  "serialNumber": "urn:uuid:be6fce44-cb2f-455d-aea5-952455d2dd4b",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T16:50:46+00:00",
+    "timestamp": "2023-04-01T07:55:36+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "1eb43d85-892a-4efa-a5cb-7ed809fc4b56",
+      "bom-ref": "93c90cc3-de86-4dfa-bb18-9fb6d52f9b31",
       "type": "container",
       "name": "likecoin_v3.1.1",
       "properties": [
@@ -2239,7 +2239,7 @@
       ]
     },
     {
-      "bom-ref": "d636b2dc-c20f-4647-8731-e3810e6fd466",
+      "bom-ref": "5298466c-a937-4a2c-8c14-2a5e55cf943d",
       "type": "application",
       "name": "bin/liked",
       "properties": [
@@ -2256,16 +2256,15 @@
   ],
   "dependencies": [
     {
-      "ref": "d636b2dc-c20f-4647-8731-e3810e6fd466",
+      "ref": "5298466c-a937-4a2c-8c14-2a5e55cf943d",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/armon/go-metrics@v0.3.10",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.0",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.0",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
         "pkg:golang/github.com/cosmos/cosmos-sdk/ics23/go@v0.8.0",
@@ -2350,6 +2349,7 @@
         "pkg:golang/github.com/tendermint/go-amino@v0.16.0",
         "pkg:golang/github.com/tendermint/tendermint@v0.34.23",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.6",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/golang.org/x/crypto@v0.1.0",
         "pkg:golang/golang.org/x/exp@v0.0.0-20220722155223-a9213eeb770e",
         "pkg:golang/golang.org/x/net@v0.1.0",
@@ -2366,9 +2366,9 @@
       ]
     },
     {
-      "ref": "1eb43d85-892a-4efa-a5cb-7ed809fc4b56",
+      "ref": "93c90cc3-de86-4dfa-bb18-9fb6d52f9b31",
       "dependsOn": [
-        "d636b2dc-c20f-4647-8731-e3810e6fd466"
+        "5298466c-a937-4a2c-8c14-2a5e55cf943d"
       ]
     }
   ],
