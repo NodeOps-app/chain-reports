@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:e10e9497-da27-4e8a-b630-08328f8315ad",
+  "serialNumber": "urn:uuid:f3054b89-653a-44ae-9238-044af20a1a8e",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T08:05:01+00:00",
+    "timestamp": "2023-04-01T09:02:41+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "6fc5164c-3de4-4189-bb7e-1fe5999a3ccf",
+      "bom-ref": "1af0863f-3387-4b97-839d-525f5d815ed2",
       "type": "container",
       "name": "carbon_v2.24.5",
       "properties": [
@@ -3818,7 +3818,7 @@
       ]
     },
     {
-      "bom-ref": "89aa9146-4c3c-40c0-9dd4-0d6e9eeb9669",
+      "bom-ref": "e9c83c68-462f-4ec6-b303-3fe65dd5e054",
       "type": "application",
       "name": "bin/carbond",
       "properties": [
@@ -3835,13 +3835,13 @@
   ],
   "dependencies": [
     {
-      "ref": "6fc5164c-3de4-4189-bb7e-1fe5999a3ccf",
+      "ref": "1af0863f-3387-4b97-839d-525f5d815ed2",
       "dependsOn": [
-        "89aa9146-4c3c-40c0-9dd4-0d6e9eeb9669"
+        "e9c83c68-462f-4ec6-b303-3fe65dd5e054"
       ]
     },
     {
-      "ref": "89aa9146-4c3c-40c0-9dd4-0d6e9eeb9669",
+      "ref": "e9c83c68-462f-4ec6-b303-3fe65dd5e054",
       "dependsOn": [
         "pkg:golang/cloud.google.com/go/compute/metadata@v0.2.3",
         "pkg:golang/cloud.google.com/go/iam@v0.11.0",
