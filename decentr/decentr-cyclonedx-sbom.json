@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:593fbbd7-8f9d-4bbb-8f45-daea538c4e5d",
+  "serialNumber": "urn:uuid:d54404eb-97dc-4aad-bff0-43a3cb2d640d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T07:53:14+00:00",
+    "timestamp": "2023-04-01T08:49:09+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "214d4b40-a78a-4317-b576-e2a46f0ef538",
+      "bom-ref": "8b40d5f2-29a6-46e4-a553-f1572bd88b02",
       "type": "container",
       "name": "decentr_v1.6.2",
       "properties": [
@@ -2071,7 +2071,7 @@
       ]
     },
     {
-      "bom-ref": "41186c6b-cc54-465f-8bb2-4106e864c602",
+      "bom-ref": "fdadcd89-e9d8-428b-8e53-c4accdc3619d",
       "type": "application",
       "name": "bin/decentrd",
       "properties": [
@@ -2088,13 +2088,13 @@
   ],
   "dependencies": [
     {
-      "ref": "214d4b40-a78a-4317-b576-e2a46f0ef538",
+      "ref": "8b40d5f2-29a6-46e4-a553-f1572bd88b02",
       "dependsOn": [
-        "41186c6b-cc54-465f-8bb2-4106e864c602"
+        "fdadcd89-e9d8-428b-8e53-c4accdc3619d"
       ]
     },
     {
-      "ref": "41186c6b-cc54-465f-8bb2-4106e864c602",
+      "ref": "fdadcd89-e9d8-428b-8e53-c4accdc3619d",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/armon/go-metrics@v0.3.10",
