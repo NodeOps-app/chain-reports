@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:d9fed84c-a3d3-40b2-a520-14c5acc13ab1",
+  "serialNumber": "urn:uuid:3f04e8f5-ec8a-4c15-b84f-77b72ca6bbde",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T17:32:23+00:00",
+    "timestamp": "2023-04-01T07:49:30+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "44a3fd42-4799-4028-ba05-4c8c754cec9d",
+      "bom-ref": "791448f3-1b5c-4085-acb6-be52b7e432a5",
       "type": "container",
       "name": "rizon_v0.4.1",
       "properties": [
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "bom-ref": "54183653-5c24-4c1f-83cc-79752e837679",
+      "bom-ref": "99375498-f032-414d-b0c0-69cff0ec503c",
       "type": "application",
       "name": "bin/rizond",
       "properties": [
@@ -2130,21 +2130,26 @@
   ],
   "dependencies": [
     {
-      "ref": "54183653-5c24-4c1f-83cc-79752e837679",
+      "ref": "791448f3-1b5c-4085-acb6-be52b7e432a5",
+      "dependsOn": [
+        "99375498-f032-414d-b0c0-69cff0ec503c"
+      ]
+    },
+    {
+      "ref": "99375498-f032-414d-b0c0-69cff0ec503c",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/armon/go-metrics@v0.3.10",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.0",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.0",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
-        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.9",
         "pkg:golang/github.com/cosmos/cosmos-sdk/ics23/go@v0.8.0",
+        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.9",
         "pkg:golang/github.com/cosmos/go-bip39@v1.0.0",
         "pkg:golang/github.com/cosmos/iavl@v0.19.3",
         "pkg:golang/github.com/cosmos/ibc-go/v3@v3.0.0",
@@ -2217,6 +2222,7 @@
         "pkg:golang/github.com/tendermint/go-amino@v0.16.0",
         "pkg:golang/github.com/tendermint/tendermint@v0.34.21",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.7",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/zondax/hid@v0.9.0",
         "pkg:golang/golang.org/x/crypto@v0.0.0-20220525230936-793ad666bf5e",
         "pkg:golang/golang.org/x/exp@v0.0.0-20220722155223-a9213eeb770e",
@@ -2231,12 +2237,6 @@
         "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
         "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
         "pkg:golang/nhooyr.io/websocket@v1.8.6"
-      ]
-    },
-    {
-      "ref": "44a3fd42-4799-4028-ba05-4c8c754cec9d",
-      "dependsOn": [
-        "54183653-5c24-4c1f-83cc-79752e837679"
       ]
     }
   ],
