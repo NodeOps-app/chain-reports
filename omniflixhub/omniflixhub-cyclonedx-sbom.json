@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:1aeb82bc-bbd0-4531-9405-3fa572978371",
+  "serialNumber": "urn:uuid:e9ec4aa7-0c56-41dc-8349-b044164b3443",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T17:08:07+00:00",
+    "timestamp": "2023-04-01T07:54:44+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "22d6b484-db4d-4f07-93ee-fa4992bbfa52",
+      "bom-ref": "691ac4cf-9b78-447b-862b-8fe7f59e11f7",
       "type": "container",
       "name": "omniflixhub_v0.8.0",
       "properties": [
@@ -2197,7 +2197,7 @@
       ]
     },
     {
-      "bom-ref": "c020c3d4-cf80-4884-9f0f-a135443d2658",
+      "bom-ref": "be210c6a-d3d9-4949-af70-44641b10987f",
       "type": "application",
       "name": "bin/omniflixhubd",
       "properties": [
@@ -2214,23 +2214,26 @@
   ],
   "dependencies": [
     {
-      "ref": "c020c3d4-cf80-4884-9f0f-a135443d2658",
+      "ref": "691ac4cf-9b78-447b-862b-8fe7f59e11f7",
+      "dependsOn": [
+        "be210c6a-d3d9-4949-af70-44641b10987f"
+      ]
+    },
+    {
+      "ref": "be210c6a-d3d9-4949-af70-44641b10987f",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/omniflix/marketplace@v0.4.0",
-        "pkg:golang/github.com/omniflix/onft@v0.3.0",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/armon/go-metrics@v0.4.0",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.0",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.0",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
-        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.10",
         "pkg:golang/github.com/cosmos/cosmos-sdk/ics23/go@v0.8.0",
+        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.10",
         "pkg:golang/github.com/cosmos/go-bip39@v1.0.0",
         "pkg:golang/github.com/cosmos/iavl@v0.19.3",
         "pkg:golang/github.com/cosmos/ibc-go/v3@v3.3.1",
@@ -2277,6 +2280,8 @@
         "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0",
         "pkg:golang/github.com/mitchellh/mapstructure@v1.5.0",
         "pkg:golang/github.com/mtibben/percent@v0.2.1",
+        "pkg:golang/github.com/omniflix/marketplace@v0.4.0",
+        "pkg:golang/github.com/omniflix/onft@v0.3.0",
         "pkg:golang/github.com/pelletier/go-toml/v2@v2.0.5",
         "pkg:golang/github.com/pkg/errors@v0.9.1",
         "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
@@ -2305,6 +2310,7 @@
         "pkg:golang/github.com/tendermint/spm@v0.1.9",
         "pkg:golang/github.com/tendermint/tendermint@v0.34.22",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.7",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/zondax/hid@v0.9.0",
         "pkg:golang/golang.org/x/crypto@v0.0.0-20220722155217-630584e8d5aa",
         "pkg:golang/golang.org/x/exp@v0.0.0-20220722155223-a9213eeb770e",
@@ -2319,12 +2325,6 @@
         "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
         "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
         "pkg:golang/nhooyr.io/websocket@v1.8.6"
-      ]
-    },
-    {
-      "ref": "22d6b484-db4d-4f07-93ee-fa4992bbfa52",
-      "dependsOn": [
-        "c020c3d4-cf80-4884-9f0f-a135443d2658"
       ]
     }
   ],
