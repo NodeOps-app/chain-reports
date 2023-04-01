@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:9dec65cc-6294-4239-aa02-77380dbeb199",
+  "serialNumber": "urn:uuid:7c6fd8d9-8bde-4c6c-bc81-a386fdc94c4b",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-24T10:43:25+00:00",
+    "timestamp": "2023-04-01T08:17:27+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "897d35de-f91e-4b2f-b5e3-ca321ff2017c",
+      "bom-ref": "7b36f356-7b5c-431c-9f24-cf5ceff241ed",
       "type": "container",
       "name": "celestia-core_v1.15.1-tm-v0.34.23",
       "properties": [
@@ -1105,7 +1105,7 @@
       ]
     },
     {
-      "bom-ref": "c2083382-c09b-42b7-bbbb-3793fcf94692",
+      "bom-ref": "ca4bd925-fd52-4fe8-a2a0-e7a186a0d827",
       "type": "application",
       "name": "bin/tendermint",
       "properties": [
@@ -1122,9 +1122,14 @@
   ],
   "dependencies": [
     {
-      "ref": "c2083382-c09b-42b7-bbbb-3793fcf94692",
+      "ref": "7b36f356-7b5c-431c-9f24-cf5ceff241ed",
       "dependsOn": [
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
+        "ca4bd925-fd52-4fe8-a2a0-e7a186a0d827"
+      ]
+    },
+    {
+      "ref": "ca4bd925-fd52-4fe8-a2a0-e7a186a0d827",
+      "dependsOn": [
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/celestiaorg/nmt@v0.14.0",
@@ -1166,6 +1171,7 @@
         "pkg:golang/github.com/subosito/gotenv@v1.4.1",
         "pkg:golang/github.com/syndtr/goleveldb@v1.0.1-0.20210819022825-2ae1ddf74ef7",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.6",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/golang.org/x/crypto@v0.1.0",
         "pkg:golang/golang.org/x/net@v0.1.0",
         "pkg:golang/golang.org/x/sys@v0.1.0",
@@ -1175,12 +1181,6 @@
         "pkg:golang/google.golang.org/protobuf@v1.28.2-0.20220831092852-f930b1dc76e8",
         "pkg:golang/gopkg.in/ini.v1@v1.67.0",
         "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
-      ]
-    },
-    {
-      "ref": "897d35de-f91e-4b2f-b5e3-ca321ff2017c",
-      "dependsOn": [
-        "c2083382-c09b-42b7-bbbb-3793fcf94692"
       ]
     }
   ],
