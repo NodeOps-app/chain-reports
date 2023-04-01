@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:129751cf-2c34-4002-ac87-1130e0118b9d",
+  "serialNumber": "urn:uuid:dd6977a5-ddbf-47a4-b3ea-b6ac069aad08",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T16:34:49+00:00",
+    "timestamp": "2023-04-01T07:51:11+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "ec6865a3-a412-46ae-be1c-6820d31a4666",
+      "bom-ref": "ae21a047-b51e-4b4c-9219-5ddcc925a3e4",
       "type": "container",
       "name": "irisnet_v1.4.1",
       "properties": [
@@ -3247,7 +3247,7 @@
       ]
     },
     {
-      "bom-ref": "218e98ff-6042-4442-a0a5-25f4303797b9",
+      "bom-ref": "511c6a03-62e9-4f66-b4df-8959a755d15c",
       "type": "application",
       "name": "bin/iris",
       "properties": [
@@ -3264,19 +3264,16 @@
   ],
   "dependencies": [
     {
-      "ref": "218e98ff-6042-4442-a0a5-25f4303797b9",
+      "ref": "511c6a03-62e9-4f66-b4df-8959a755d15c",
       "dependsOn": [
-        "pkg:golang/cloud.google.com/go@v0.102.1",
         "pkg:golang/cloud.google.com/go/compute@v1.7.0",
         "pkg:golang/cloud.google.com/go/iam@v0.4.0",
         "pkg:golang/cloud.google.com/go/storage@v1.22.1",
+        "pkg:golang/cloud.google.com/go@v0.102.1",
         "pkg:golang/cosmossdk.io/errors@v1.0.0-beta.7",
         "pkg:golang/cosmossdk.io/math@v1.0.0-beta.3",
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/armon/go-metrics@v0.4.0",
         "pkg:golang/github.com/aws/aws-sdk-go@v1.40.45",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
@@ -3287,13 +3284,14 @@
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/cenkalti/backoff/v4@v4.1.3",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/chzyer/readline@v0.0.0-20180603132655-2972be24d48e",
         "pkg:golang/github.com/cockroachdb/apd/v2@v2.0.2",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.9",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
         "pkg:golang/github.com/cosmos/cosmos-proto@v1.0.0-alpha7",
-        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.46.5",
         "pkg:golang/github.com/cosmos/cosmos-sdk/ics23/go@v0.8.0",
+        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.46.5",
         "pkg:golang/github.com/cosmos/go-bip39@v1.0.0",
         "pkg:golang/github.com/cosmos/iavl@v0.19.4",
         "pkg:golang/github.com/cosmos/ibc-go/v5@v5.0.1",
@@ -3397,6 +3395,8 @@
         "pkg:golang/github.com/tklauser/go-sysconf@v0.3.9",
         "pkg:golang/github.com/tklauser/numcpus@v0.3.0",
         "pkg:golang/github.com/ulikunitz/xz@v0.5.8",
+        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/xeipuuv/gojsonpointer@v0.0.0-20180127040702-4e3ac2762d5f",
         "pkg:golang/github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415",
         "pkg:golang/github.com/xeipuuv/gojsonschema@v1.2.0",
@@ -3422,9 +3422,9 @@
       ]
     },
     {
-      "ref": "ec6865a3-a412-46ae-be1c-6820d31a4666",
+      "ref": "ae21a047-b51e-4b4c-9219-5ddcc925a3e4",
       "dependsOn": [
-        "218e98ff-6042-4442-a0a5-25f4303797b9"
+        "511c6a03-62e9-4f66-b4df-8959a755d15c"
       ]
     }
   ],
