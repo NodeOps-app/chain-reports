@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:b6ca6e58-6384-4f13-9f40-76ca8b7e8e37",
+  "serialNumber": "urn:uuid:b64a9f3d-25f8-4572-88e8-b19de7af0b29",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-24T11:22:10+00:00",
+    "timestamp": "2023-04-01T08:08:28+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "2c04b244-b3b6-49d2-bd63-a2dc3c2b8067",
+      "bom-ref": "31ce663c-3150-49bc-b60d-1c4079a042ee",
       "type": "container",
       "name": "polygon-bor_v0.3.7",
       "properties": [
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "bom-ref": "f7aacbf0-6a20-4ff0-a727-7903b59a1750",
+      "bom-ref": "04715367-f7ed-40cc-8efa-615f71f9c637",
       "type": "application",
       "name": "bin/bor",
       "properties": [
@@ -2130,19 +2130,13 @@
   ],
   "dependencies": [
     {
-      "ref": "f7aacbf0-6a20-4ff0-a727-7903b59a1750",
+      "ref": "04715367-f7ed-40cc-8efa-615f71f9c637",
       "dependsOn": [
-        "pkg:golang/github.com/burntsushi/toml@v1.1.0",
-        "pkg:golang/github.com/jekamas/go-grpc-net-conn@v0.0.0-20220708155319-6aff21f2d13d",
-        "pkg:golang/github.com/jekamas/workerpool@v1.1.5",
-        "pkg:golang/github.com/masterminds/goutils@v1.1.1",
-        "pkg:golang/github.com/masterminds/semver@v1.5.0",
-        "pkg:golang/github.com/masterminds/sprig@v2.22.0+incompatible",
-        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
         "pkg:golang/github.com/agext/levenshtein@v1.2.1",
         "pkg:golang/github.com/apparentlymart/go-textseg/v13@v13.0.0",
         "pkg:golang/github.com/armon/go-radix@v0.0.0-20180808171621-7fddfc383310",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.0",
+        "pkg:golang/github.com/burntsushi/toml@v1.1.0",
         "pkg:golang/github.com/cenkalti/backoff/v4@v4.1.1",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
         "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
@@ -2179,11 +2173,16 @@
         "pkg:golang/github.com/huandu/xstrings@v1.3.2",
         "pkg:golang/github.com/huin/goupnp@v1.0.3-0.20220313090229-ca81a64b4204",
         "pkg:golang/github.com/imdario/mergo@v0.3.11",
-        "pkg:golang/github.com/influxdata/influxdb@v1.8.3",
         "pkg:golang/github.com/influxdata/influxdb-client-go/v2@v2.4.0",
+        "pkg:golang/github.com/influxdata/influxdb@v1.8.3",
         "pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20210311194329-9aa0e372d097",
         "pkg:golang/github.com/jackpal/go-nat-pmp@v1.0.2",
+        "pkg:golang/github.com/jekamas/go-grpc-net-conn@v0.0.0-20220708155319-6aff21f2d13d",
+        "pkg:golang/github.com/jekamas/workerpool@v1.1.5",
         "pkg:golang/github.com/karalabe/usb@v0.0.2",
+        "pkg:golang/github.com/masterminds/goutils@v1.1.1",
+        "pkg:golang/github.com/masterminds/semver@v1.5.0",
+        "pkg:golang/github.com/masterminds/sprig@v2.22.0+incompatible",
         "pkg:golang/github.com/maticnetwork/crand@v1.0.2",
         "pkg:golang/github.com/maticnetwork/polyproto@v0.0.2",
         "pkg:golang/github.com/mattn/go-colorable@v0.1.8",
@@ -2211,13 +2210,14 @@
         "pkg:golang/github.com/tklauser/go-sysconf@v0.3.5",
         "pkg:golang/github.com/tklauser/numcpus@v0.2.2",
         "pkg:golang/github.com/tyler-smith/go-bip39@v1.0.1-0.20181017060643-dbb3b84ba2ef",
+        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
         "pkg:golang/github.com/xsleonard/go-merkle@v1.1.0",
         "pkg:golang/github.com/zclconf/go-cty@v1.8.0",
-        "pkg:golang/go.opentelemetry.io/otel@v1.2.0",
-        "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.2.0",
         "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@v1.2.0",
+        "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.2.0",
         "pkg:golang/go.opentelemetry.io/otel/sdk@v1.2.0",
         "pkg:golang/go.opentelemetry.io/otel/trace@v1.2.0",
+        "pkg:golang/go.opentelemetry.io/otel@v1.2.0",
         "pkg:golang/go.opentelemetry.io/proto/otlp@v0.10.0",
         "pkg:golang/golang.org/x/crypto@v0.1.0",
         "pkg:golang/golang.org/x/net@v0.8.0",
@@ -2234,9 +2234,9 @@
       ]
     },
     {
-      "ref": "2c04b244-b3b6-49d2-bd63-a2dc3c2b8067",
+      "ref": "31ce663c-3150-49bc-b60d-1c4079a042ee",
       "dependsOn": [
-        "f7aacbf0-6a20-4ff0-a727-7903b59a1750"
+        "04715367-f7ed-40cc-8efa-615f71f9c637"
       ]
     }
   ],
