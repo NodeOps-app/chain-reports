@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:89e7d402-6f33-41bf-beee-e81a8b8cfdab",
+  "serialNumber": "urn:uuid:5bc6c2f8-9127-4b69-89df-f92f65f88bc7",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-16T07:14:40+00:00",
+    "timestamp": "2023-04-01T07:52:32+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "027dc38f-c690-47ec-a509-a7136267c5e1",
+      "bom-ref": "c7536997-d2c7-4c09-8af5-7662d82df630",
       "type": "container",
       "name": "althea_v0.4.0",
       "properties": [
@@ -2680,7 +2680,7 @@
       ]
     },
     {
-      "bom-ref": "71688989-fe1d-41e5-b5cd-a16a6ef4c450",
+      "bom-ref": "0b06c4a6-a410-4433-bc89-123defce419a",
       "type": "application",
       "name": "bin/althea",
       "properties": [
@@ -2697,27 +2697,25 @@
   ],
   "dependencies": [
     {
-      "ref": "71688989-fe1d-41e5-b5cd-a16a6ef4c450",
+      "ref": "0b06c4a6-a410-4433-bc89-123defce419a",
       "dependsOn": [
         "pkg:golang/cosmossdk.io/math@v1.0.0-beta.4",
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/althea-net/canto/v5@v5.0.1",
         "pkg:golang/github.com/armon/go-metrics@v0.4.1",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.1-0.20220910012023-760eaf8b6816",
-        "pkg:golang/github.com/btcsuite/btcd@v0.22.2",
         "pkg:golang/github.com/btcsuite/btcd/chaincfg/chainhash@v1.0.1",
+        "pkg:golang/github.com/btcsuite/btcd@v0.22.2",
         "pkg:golang/github.com/btcsuite/btcutil@v1.0.3-0.20201208143702-a53e38424cce",
         "pkg:golang/github.com/cenkalti/backoff/v4@v4.1.3",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.7",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.5",
-        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.11",
         "pkg:golang/github.com/cosmos/cosmos-sdk/ics23@v0.0.0-20221014140410-2582f0aab7b2",
+        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.11",
         "pkg:golang/github.com/cosmos/go-bip39@v1.0.0",
         "pkg:golang/github.com/cosmos/iavl@v0.19.4",
         "pkg:golang/github.com/cosmos/ibc-go/v3@v3.4.0",
@@ -2810,6 +2808,8 @@
         "pkg:golang/github.com/tklauser/go-sysconf@v0.3.10",
         "pkg:golang/github.com/tklauser/numcpus@v0.4.0",
         "pkg:golang/github.com/tyler-smith/go-bip39@v1.1.0",
+        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/go.opencensus.io@v0.23.0",
         "pkg:golang/golang.org/x/crypto@v0.3.0",
         "pkg:golang/golang.org/x/exp@v0.0.0-20220722155223-a9213eeb770e",
@@ -2828,9 +2828,9 @@
       ]
     },
     {
-      "ref": "027dc38f-c690-47ec-a509-a7136267c5e1",
+      "ref": "c7536997-d2c7-4c09-8af5-7662d82df630",
       "dependsOn": [
-        "71688989-fe1d-41e5-b5cd-a16a6ef4c450"
+        "0b06c4a6-a410-4433-bc89-123defce419a"
       ]
     }
   ],
