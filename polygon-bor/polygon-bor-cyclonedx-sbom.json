@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:b64a9f3d-25f8-4572-88e8-b19de7af0b29",
+  "serialNumber": "urn:uuid:407c813b-b209-4e3f-80f2-c78a3691e78d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T08:08:28+00:00",
+    "timestamp": "2023-04-01T09:06:22+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "31ce663c-3150-49bc-b60d-1c4079a042ee",
+      "bom-ref": "adec8e57-a557-4aa7-ab8a-6c753171ec5b",
       "type": "container",
       "name": "polygon-bor_v0.3.7",
       "properties": [
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "bom-ref": "04715367-f7ed-40cc-8efa-615f71f9c637",
+      "bom-ref": "4206141c-93ef-4866-9983-02407fa8905a",
       "type": "application",
       "name": "bin/bor",
       "properties": [
@@ -2130,7 +2130,7 @@
   ],
   "dependencies": [
     {
-      "ref": "04715367-f7ed-40cc-8efa-615f71f9c637",
+      "ref": "4206141c-93ef-4866-9983-02407fa8905a",
       "dependsOn": [
         "pkg:golang/github.com/agext/levenshtein@v1.2.1",
         "pkg:golang/github.com/apparentlymart/go-textseg/v13@v13.0.0",
@@ -2234,9 +2234,9 @@
       ]
     },
     {
-      "ref": "31ce663c-3150-49bc-b60d-1c4079a042ee",
+      "ref": "adec8e57-a557-4aa7-ab8a-6c753171ec5b",
       "dependsOn": [
-        "04715367-f7ed-40cc-8efa-615f71f9c637"
+        "4206141c-93ef-4866-9983-02407fa8905a"
       ]
     }
   ],
