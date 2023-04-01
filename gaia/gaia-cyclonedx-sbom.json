@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:1f01d508-c487-4973-a9b5-73fa2e453439",
+  "serialNumber": "urn:uuid:9eca3109-13a5-4f5c-a39c-97d6b9eed9ae",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-16T06:31:33+00:00",
+    "timestamp": "2023-04-01T08:02:10+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "3bbcb864-993b-4c89-9e1a-3c892907216c",
+      "bom-ref": "b100db45-5881-4c07-b383-a7fbe32f0fc2",
       "type": "container",
       "name": "gaia_v9.0.1",
       "properties": [
@@ -2176,7 +2176,7 @@
       ]
     },
     {
-      "bom-ref": "67562a27-5f39-41b1-bf4d-2cd181e36bd8",
+      "bom-ref": "8c34b6b4-9fd2-4677-b2c7-67f7760ec747",
       "type": "application",
       "name": "bin/gaiad",
       "properties": [
@@ -2193,18 +2193,17 @@
   ],
   "dependencies": [
     {
-      "ref": "67562a27-5f39-41b1-bf4d-2cd181e36bd8",
+      "ref": "8c34b6b4-9fd2-4677-b2c7-67f7760ec747",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/armon/go-metrics@v0.4.0",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.1-0.20220910012023-760eaf8b6816",
-        "pkg:golang/github.com/btcsuite/btcd@v0.22.2",
         "pkg:golang/github.com/btcsuite/btcd/btcec/v2@v2.3.2",
+        "pkg:golang/github.com/btcsuite/btcd@v0.22.2",
         "pkg:golang/github.com/cenkalti/backoff/v4@v4.1.3",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.9",
         "pkg:golang/github.com/confio/ics23/go@v0.9.0",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
@@ -2235,8 +2234,8 @@
         "pkg:golang/github.com/gorilla/websocket@v1.5.0",
         "pkg:golang/github.com/gravity-devs/liquidity@v1.5.3",
         "pkg:golang/github.com/grpc-ecosystem/go-grpc-middleware@v1.3.0",
-        "pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v1.16.0",
         "pkg:golang/github.com/grpc-ecosystem/grpc-gateway/v2@v2.10.2",
+        "pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v1.16.0",
         "pkg:golang/github.com/gsterjov/go-libsecret@v0.0.0-20161001094733-a6f4afe4910c",
         "pkg:golang/github.com/gtank/merlin@v0.1.1",
         "pkg:golang/github.com/gtank/ristretto255@v0.1.2",
@@ -2284,6 +2283,7 @@
         "pkg:golang/github.com/tendermint/go-amino@v0.16.0",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.7",
         "pkg:golang/github.com/tidwall/btree@v1.5.0",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/golang.org/x/crypto@v0.5.0",
         "pkg:golang/golang.org/x/exp@v0.0.0-20220722155223-a9213eeb770e",
         "pkg:golang/golang.org/x/net@v0.5.0",
@@ -2300,9 +2300,9 @@
       ]
     },
     {
-      "ref": "3bbcb864-993b-4c89-9e1a-3c892907216c",
+      "ref": "b100db45-5881-4c07-b383-a7fbe32f0fc2",
       "dependsOn": [
-        "67562a27-5f39-41b1-bf4d-2cd181e36bd8"
+        "8c34b6b4-9fd2-4677-b2c7-67f7760ec747"
       ]
     }
   ],
