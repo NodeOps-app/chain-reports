@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:697034c7-9312-415b-b552-3ea6dd11bb83",
+  "serialNumber": "urn:uuid:027005f6-ac5b-4860-9708-5544f3e63ad4",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-24T11:26:20+00:00",
+    "timestamp": "2023-04-01T08:03:41+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "59cb5f61-667a-40d2-8664-c537c85e8815",
+      "bom-ref": "a9aca17c-2c04-4286-9db3-dee09e451936",
       "type": "container",
       "name": "polygon-geth_v0.3.7",
       "properties": [
@@ -1525,7 +1525,7 @@
       ]
     },
     {
-      "bom-ref": "5f8d34c7-1f75-4f2c-bbc3-a65b50818ec5",
+      "bom-ref": "2bf865a2-000b-43c7-8d23-129f0a402243",
       "type": "application",
       "name": "bin/geth",
       "properties": [
@@ -1542,11 +1542,9 @@
   ],
   "dependencies": [
     {
-      "ref": "5f8d34c7-1f75-4f2c-bbc3-a65b50818ec5",
+      "ref": "2bf865a2-000b-43c7-8d23-129f0a402243",
       "dependsOn": [
         "pkg:golang/github.com/burntsushi/toml@v1.1.0",
-        "pkg:golang/github.com/jekamas/workerpool@v1.1.5",
-        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
         "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
         "pkg:golang/github.com/deckarep/golang-set@v1.8.0",
@@ -1574,11 +1572,12 @@
         "pkg:golang/github.com/holiman/bloomfilter/v2@v2.0.3",
         "pkg:golang/github.com/holiman/uint256@v1.2.0",
         "pkg:golang/github.com/huin/goupnp@v1.0.3-0.20220313090229-ca81a64b4204",
-        "pkg:golang/github.com/influxdata/influxdb@v1.8.3",
         "pkg:golang/github.com/influxdata/influxdb-client-go/v2@v2.4.0",
+        "pkg:golang/github.com/influxdata/influxdb@v1.8.3",
         "pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20210311194329-9aa0e372d097",
         "pkg:golang/github.com/jackpal/go-nat-pmp@v1.0.2",
         "pkg:golang/github.com/jedisct1/go-minisign@v0.0.0-20190909160543-45766022959e",
+        "pkg:golang/github.com/jekamas/workerpool@v1.1.5",
         "pkg:golang/github.com/karalabe/usb@v0.0.2",
         "pkg:golang/github.com/maticnetwork/crand@v1.0.2",
         "pkg:golang/github.com/maticnetwork/polyproto@v0.0.2",
@@ -1600,9 +1599,10 @@
         "pkg:golang/github.com/tklauser/go-sysconf@v0.3.5",
         "pkg:golang/github.com/tklauser/numcpus@v0.2.2",
         "pkg:golang/github.com/tyler-smith/go-bip39@v1.0.1-0.20181017060643-dbb3b84ba2ef",
+        "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
         "pkg:golang/github.com/xsleonard/go-merkle@v1.1.0",
-        "pkg:golang/go.opentelemetry.io/otel@v1.2.0",
         "pkg:golang/go.opentelemetry.io/otel/trace@v1.2.0",
+        "pkg:golang/go.opentelemetry.io/otel@v1.2.0",
         "pkg:golang/golang.org/x/crypto@v0.1.0",
         "pkg:golang/golang.org/x/net@v0.8.0",
         "pkg:golang/golang.org/x/sync@v0.1.0",
@@ -1618,9 +1618,9 @@
       ]
     },
     {
-      "ref": "59cb5f61-667a-40d2-8664-c537c85e8815",
+      "ref": "a9aca17c-2c04-4286-9db3-dee09e451936",
       "dependsOn": [
-        "5f8d34c7-1f75-4f2c-bbc3-a65b50818ec5"
+        "2bf865a2-000b-43c7-8d23-129f0a402243"
       ]
     }
   ],
