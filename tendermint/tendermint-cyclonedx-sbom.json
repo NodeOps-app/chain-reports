@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:18d3df3c-f32a-41dc-95c8-129446261440",
+  "serialNumber": "urn:uuid:ed0f6521-5c95-475d-8c4e-a8d0c1adc7c5",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T17:51:27+00:00",
+    "timestamp": "2023-04-01T08:09:03+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "be949e75-d2f9-4bae-a55c-371a01134445",
+      "bom-ref": "f2b65376-2769-4dd9-8e3c-ee5fd41bf444",
       "type": "container",
       "name": "tendermint_v0.34.24",
       "properties": [
@@ -1084,7 +1084,7 @@
       ]
     },
     {
-      "bom-ref": "63a5d1a3-a6ab-48eb-9101-13a45b6e1ec1",
+      "bom-ref": "f4c16d37-3314-4548-a3a5-e7229c69419e",
       "type": "application",
       "name": "bin/tendermint",
       "properties": [
@@ -1101,9 +1101,14 @@
   ],
   "dependencies": [
     {
-      "ref": "63a5d1a3-a6ab-48eb-9101-13a45b6e1ec1",
+      "ref": "f2b65376-2769-4dd9-8e3c-ee5fd41bf444",
       "dependsOn": [
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
+        "f4c16d37-3314-4548-a3a5-e7229c69419e"
+      ]
+    },
+    {
+      "ref": "f4c16d37-3314-4548-a3a5-e7229c69419e",
+      "dependsOn": [
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
@@ -1144,6 +1149,7 @@
         "pkg:golang/github.com/subosito/gotenv@v1.4.1",
         "pkg:golang/github.com/syndtr/goleveldb@v1.0.1-0.20210819022825-2ae1ddf74ef7",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.6",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/golang.org/x/crypto@v0.1.0",
         "pkg:golang/golang.org/x/net@v0.1.0",
         "pkg:golang/golang.org/x/sys@v0.1.0",
@@ -1153,12 +1159,6 @@
         "pkg:golang/google.golang.org/protobuf@v1.28.2-0.20220831092852-f930b1dc76e8",
         "pkg:golang/gopkg.in/ini.v1@v1.67.0",
         "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
-      ]
-    },
-    {
-      "ref": "be949e75-d2f9-4bae-a55c-371a01134445",
-      "dependsOn": [
-        "63a5d1a3-a6ab-48eb-9101-13a45b6e1ec1"
       ]
     }
   ],
