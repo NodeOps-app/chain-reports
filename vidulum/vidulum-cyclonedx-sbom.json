@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:0bda306b-7b4e-4011-b6e7-2d0961e152e1",
+  "serialNumber": "urn:uuid:09d023f3-8f0d-45c4-a1fb-6128b70af267",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-15T17:57:59+00:00",
+    "timestamp": "2023-04-01T08:12:26+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "44593b73-8b29-4bc1-8ff6-910a1d5a9b11",
+      "bom-ref": "673e2836-e863-46b9-b6a9-739b9db7ee77",
       "type": "container",
       "name": "vidulum_v1.2.0",
       "properties": [
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "bom-ref": "015ed542-cb00-48f3-9187-939af3603181",
+      "bom-ref": "0ad7779c-a8e8-4de1-97b3-3c37534871c3",
       "type": "application",
       "name": "bin/vidulumd",
       "properties": [
@@ -2130,20 +2130,19 @@
   ],
   "dependencies": [
     {
-      "ref": "015ed542-cb00-48f3-9187-939af3603181",
+      "ref": "0ad7779c-a8e8-4de1-97b3-3c37534871c3",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/armon/go-metrics@v0.3.10",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.0",
         "pkg:golang/github.com/btcsuite/btcd@v0.22.1",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.0",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
-        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.9",
         "pkg:golang/github.com/cosmos/cosmos-sdk/ics23/go@v0.8.0",
+        "pkg:golang/github.com/cosmos/cosmos-sdk@v0.45.9",
         "pkg:golang/github.com/cosmos/go-bip39@v1.0.0",
         "pkg:golang/github.com/cosmos/iavl@v0.19.3",
         "pkg:golang/github.com/cosmos/ibc-go@v1.2.2",
@@ -2217,6 +2216,7 @@
         "pkg:golang/github.com/tendermint/spm@v0.1.9",
         "pkg:golang/github.com/tendermint/tendermint@v0.34.21",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.6",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/zondax/hid@v0.9.0",
         "pkg:golang/golang.org/x/crypto@v0.0.0-20220525230936-793ad666bf5e",
         "pkg:golang/golang.org/x/exp@v0.0.0-20220722155223-a9213eeb770e",
@@ -2234,9 +2234,9 @@
       ]
     },
     {
-      "ref": "44593b73-8b29-4bc1-8ff6-910a1d5a9b11",
+      "ref": "673e2836-e863-46b9-b6a9-739b9db7ee77",
       "dependsOn": [
-        "015ed542-cb00-48f3-9187-939af3603181"
+        "0ad7779c-a8e8-4de1-97b3-3c37534871c3"
       ]
     }
   ],
