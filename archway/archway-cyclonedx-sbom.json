@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:d189fd14-d0e0-4772-b74b-24d8b97f08a0",
+  "serialNumber": "urn:uuid:07698a34-694b-4f26-909b-68f81aae988d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-30T10:06:30+00:00",
+    "timestamp": "2023-04-01T08:13:57+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.3"
+        "version": "0.39.0"
       }
     ],
     "component": {
-      "bom-ref": "6a8bbea2-6a22-4a74-9bcd-6d6757a8f4c7",
+      "bom-ref": "aeaf0c8f-c107-48ab-9003-a7728def34de",
       "type": "container",
       "name": "archway_v0.3.0",
       "properties": [
@@ -2323,7 +2323,7 @@
       ]
     },
     {
-      "bom-ref": "f5e80167-a621-4e64-be4d-09da1bf39438",
+      "bom-ref": "82c19435-5c4e-44f3-b497-9462d309f428",
       "type": "application",
       "name": "bin/archwayd",
       "properties": [
@@ -2340,23 +2340,21 @@
   ],
   "dependencies": [
     {
-      "ref": "f5e80167-a621-4e64-be4d-09da1bf39438",
+      "ref": "82c19435-5c4e-44f3-b497-9462d309f428",
       "dependsOn": [
         "pkg:golang/cosmossdk.io/api@v0.2.6",
         "pkg:golang/cosmossdk.io/core@v0.5.1",
         "pkg:golang/cosmossdk.io/depinject@v1.0.0-alpha.3",
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
-        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
-        "pkg:golang/github.com/cosmwasm/wasmvm@v1.1.1",
-        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/archway-network/archway-wasmd@v0.29.2-archway",
         "pkg:golang/github.com/armon/go-metrics@v0.4.0",
         "pkg:golang/github.com/beorn7/perks@v1.0.1",
         "pkg:golang/github.com/bgentry/speakeasy@v0.1.1-0.20220910012023-760eaf8b6816",
-        "pkg:golang/github.com/btcsuite/btcd@v0.22.2",
         "pkg:golang/github.com/btcsuite/btcd/btcec/v2@v2.3.2",
+        "pkg:golang/github.com/btcsuite/btcd@v0.22.2",
         "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+        "pkg:golang/github.com/chainsafe/go-schnorrkel@v0.0.0-20200405005733-88cbf1b4c40d",
         "pkg:golang/github.com/coinbase/rosetta-sdk-go@v0.7.0",
         "pkg:golang/github.com/confio/ics23/go@v0.9.0",
         "pkg:golang/github.com/cosmos/btcutil@v1.0.4",
@@ -2368,6 +2366,7 @@
         "pkg:golang/github.com/cosmos/iavl@v0.19.5",
         "pkg:golang/github.com/cosmos/ibc-go/v3@v3.3.0",
         "pkg:golang/github.com/cosmos/ledger-cosmos-go@v0.12.2",
+        "pkg:golang/github.com/cosmwasm/wasmvm@v1.1.1",
         "pkg:golang/github.com/creachadair/taskgroup@v0.3.2",
         "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
         "pkg:golang/github.com/decred/dcrd/dcrec/secp256k1/v4@v4.0.1",
@@ -2435,6 +2434,7 @@
         "pkg:golang/github.com/tendermint/go-amino@v0.16.0",
         "pkg:golang/github.com/tendermint/tm-db@v0.6.7",
         "pkg:golang/github.com/tidwall/btree@v1.5.0",
+        "pkg:golang/github.com/workiva/go-datastructures@v1.0.53",
         "pkg:golang/github.com/zondax/hid@v0.9.1",
         "pkg:golang/github.com/zondax/ledger-go@v0.14.1",
         "pkg:golang/golang.org/x/crypto@v0.5.0",
@@ -2454,9 +2454,9 @@
       ]
     },
     {
-      "ref": "6a8bbea2-6a22-4a74-9bcd-6d6757a8f4c7",
+      "ref": "aeaf0c8f-c107-48ab-9003-a7728def34de",
       "dependsOn": [
-        "f5e80167-a621-4e64-be4d-09da1bf39438"
+        "82c19435-5c4e-44f3-b497-9462d309f428"
       ]
     }
   ],
