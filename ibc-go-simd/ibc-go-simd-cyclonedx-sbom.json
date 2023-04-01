@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:351d657a-8b45-4702-8e95-d5117da12671",
+  "serialNumber": "urn:uuid:9a21a10f-4962-4208-85d1-7160ad4915b6",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T07:58:37+00:00",
+    "timestamp": "2023-04-01T08:41:00+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "51e872da-2c14-4f30-8825-b58da0f4a313",
+      "bom-ref": "cca3d064-fdb4-4024-aae1-ec4cf15299b1",
       "type": "container",
       "name": "ibc-go-simd_v7.0.0",
       "properties": [
@@ -2953,7 +2953,7 @@
       ]
     },
     {
-      "bom-ref": "ab3d55ca-775d-4509-9edf-25f2aa8a93c9",
+      "bom-ref": "6ea612c4-f6a4-4b07-8e0d-c7b9f8974a5d",
       "type": "application",
       "name": "bin/simd",
       "properties": [
@@ -2970,13 +2970,7 @@
   ],
   "dependencies": [
     {
-      "ref": "51e872da-2c14-4f30-8825-b58da0f4a313",
-      "dependsOn": [
-        "ab3d55ca-775d-4509-9edf-25f2aa8a93c9"
-      ]
-    },
-    {
-      "ref": "ab3d55ca-775d-4509-9edf-25f2aa8a93c9",
+      "ref": "6ea612c4-f6a4-4b07-8e0d-c7b9f8974a5d",
       "dependsOn": [
         "pkg:golang/cloud.google.com/go/compute/metadata@v0.2.3",
         "pkg:golang/cloud.google.com/go/iam@v0.12.0",
@@ -3117,6 +3111,12 @@
         "pkg:golang/nhooyr.io/websocket@v1.8.6",
         "pkg:golang/pgregory.net/rapid@v0.5.5",
         "pkg:golang/sigs.k8s.io/yaml@v1.3.0"
+      ]
+    },
+    {
+      "ref": "cca3d064-fdb4-4024-aae1-ec4cf15299b1",
+      "dependsOn": [
+        "6ea612c4-f6a4-4b07-8e0d-c7b9f8974a5d"
       ]
     }
   ],
