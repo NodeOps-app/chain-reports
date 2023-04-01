@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:be6fce44-cb2f-455d-aea5-952455d2dd4b",
+  "serialNumber": "urn:uuid:a2e2213b-41de-4bd0-814f-318a998bbd9c",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-01T07:55:36+00:00",
+    "timestamp": "2023-04-01T08:51:41+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
@@ -13,7 +13,7 @@
       }
     ],
     "component": {
-      "bom-ref": "93c90cc3-de86-4dfa-bb18-9fb6d52f9b31",
+      "bom-ref": "cb026f8f-ad7d-4d5f-8e04-10b56268281b",
       "type": "container",
       "name": "likecoin_v3.1.1",
       "properties": [
@@ -2239,7 +2239,7 @@
       ]
     },
     {
-      "bom-ref": "5298466c-a937-4a2c-8c14-2a5e55cf943d",
+      "bom-ref": "9a24ebdc-b010-4bc2-aaeb-96237123bc8d",
       "type": "application",
       "name": "bin/liked",
       "properties": [
@@ -2256,7 +2256,7 @@
   ],
   "dependencies": [
     {
-      "ref": "5298466c-a937-4a2c-8c14-2a5e55cf943d",
+      "ref": "9a24ebdc-b010-4bc2-aaeb-96237123bc8d",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/armon/go-metrics@v0.3.10",
@@ -2366,9 +2366,9 @@
       ]
     },
     {
-      "ref": "93c90cc3-de86-4dfa-bb18-9fb6d52f9b31",
+      "ref": "cb026f8f-ad7d-4d5f-8e04-10b56268281b",
       "dependsOn": [
-        "5298466c-a937-4a2c-8c14-2a5e55cf943d"
+        "9a24ebdc-b010-4bc2-aaeb-96237123bc8d"
       ]
     }
   ],
